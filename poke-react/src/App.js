@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import Pokedex from './Pokedex';
 
 const pokeThings = [
   { id: 4, name: 'Charmander', type: 'fire', base_experience: 62 },
@@ -11,6 +11,9 @@ const pokeThings = [
   { id: 94, name: 'Gengar', type: 'poison', base_experience: 225 },
   { id: 133, name: 'Eevee', type: 'normal', base_experience: 65 }
 ];
+
+/** App for Pokedex viewing.
+ */
 
 function App() {
   return (
