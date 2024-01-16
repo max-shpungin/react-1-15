@@ -7,11 +7,17 @@ import Pokecard from "./Pokecard";
  * Return component JSX
  */
 
-function Pokedex({ pokeThings }) {
-
+function Pokedex({pokeThings}) {
   return (
     <div className="Pokedex">
-      {pokeThings.map(p => <Pokecard pokeThing={p} />)}
+      {pokeThings.map(p =>
+        <Pokecard
+          id={p.id}
+          name={p.name}
+          type={p.type}
+          base_experience={p.base_experience}
+        />)
+      }
     </div>
   );
 }
