@@ -8,6 +8,7 @@
   background-color: darkgray;
 }
 
-.Pokecard-Name {
+/* TODO: uncapitalize name (only caps for component) */
+.Pokecard-name {
   color:blue;
 }
